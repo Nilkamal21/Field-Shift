@@ -1,0 +1,508 @@
+{
+  "metadata": {
+    "dataset": "NASA MODIS (MOD13Q1)",
+    "product": "250m 16-Day Vegetation Indices",
+    "latitude": 26.18,
+    "longitude": 91.75,
+    "location_name": "Kamrup, Assam, India",
+    "start_year": 2022,
+    "end_year": 2024,
+    "total_records": 69,
+    "scale_factor": 0.0001,
+    "is_sample_data": true,
+    "source": "SAMPLE_DATA",
+    "units": "NDVI (-1.0 to +1.0, dimensionless greenness index)",
+    "sample_label": "SAMPLE DATA (NASA MODIS MOD13Q1 Baseline for Kamrup, Assam)"
+  },
+  "summary": {
+    "mean_ndvi": 0.488,
+    "min_ndvi": 0.312,
+    "max_ndvi": 0.72,
+    "canopy_status": "Robust / High Seasonal Vegetation Vigour"
+  },
+  "records": [
+    {
+      "date": "2022-01-01",
+      "year": 2022,
+      "month": 1,
+      "modis_date": "A2022001",
+      "ndvi": 0.334
+    },
+    {
+      "date": "2022-01-17",
+      "year": 2022,
+      "month": 1,
+      "modis_date": "A2022017",
+      "ndvi": 0.35
+    },
+    {
+      "date": "2022-02-02",
+      "year": 2022,
+      "month": 2,
+      "modis_date": "A2022033",
+      "ndvi": 0.396
+    },
+    {
+      "date": "2022-02-18",
+      "year": 2022,
+      "month": 2,
+      "modis_date": "A2022049",
+      "ndvi": 0.356
+    },
+    {
+      "date": "2022-03-06",
+      "year": 2022,
+      "month": 3,
+      "modis_date": "A2022065",
+      "ndvi": 0.312
+    },
+    {
+      "date": "2022-03-22",
+      "year": 2022,
+      "month": 3,
+      "modis_date": "A2022081",
+      "ndvi": 0.328
+    },
+    {
+      "date": "2022-04-07",
+      "year": 2022,
+      "month": 4,
+      "modis_date": "A2022097",
+      "ndvi": 0.384
+    },
+    {
+      "date": "2022-04-23",
+      "year": 2022,
+      "month": 4,
+      "modis_date": "A2022113",
+      "ndvi": 0.344
+    },
+    {
+      "date": "2022-05-09",
+      "year": 2022,
+      "month": 5,
+      "modis_date": "A2022129",
+      "ndvi": 0.48
+    },
+    {
+      "date": "2022-05-25",
+      "year": 2022,
+      "month": 5,
+      "modis_date": "A2022145",
+      "ndvi": 0.496
+    },
+    {
+      "date": "2022-06-10",
+      "year": 2022,
+      "month": 6,
+      "modis_date": "A2022161",
+      "ndvi": 0.556
+    },
+    {
+      "date": "2022-06-26",
+      "year": 2022,
+      "month": 6,
+      "modis_date": "A2022177",
+      "ndvi": 0.572
+    },
+    {
+      "date": "2022-07-12",
+      "year": 2022,
+      "month": 7,
+      "modis_date": "A2022193",
+      "ndvi": 0.688
+    },
+    {
+      "date": "2022-07-28",
+      "year": 2022,
+      "month": 7,
+      "modis_date": "A2022209",
+      "ndvi": 0.704
+    },
+    {
+      "date": "2022-08-13",
+      "year": 2022,
+      "month": 8,
+      "modis_date": "A2022225",
+      "ndvi": 0.704
+    },
+    {
+      "date": "2022-08-29",
+      "year": 2022,
+      "month": 8,
+      "modis_date": "A2022241",
+      "ndvi": 0.72
+    },
+    {
+      "date": "2022-09-14",
+      "year": 2022,
+      "month": 9,
+      "modis_date": "A2022257",
+      "ndvi": 0.706
+    },
+    {
+      "date": "2022-09-30",
+      "year": 2022,
+      "month": 9,
+      "modis_date": "A2022273",
+      "ndvi": 0.666
+    },
+    {
+      "date": "2022-10-16",
+      "year": 2022,
+      "month": 10,
+      "modis_date": "A2022289",
+      "ndvi": 0.542
+    },
+    {
+      "date": "2022-11-01",
+      "year": 2022,
+      "month": 11,
+      "modis_date": "A2022305",
+      "ndvi": 0.428
+    },
+    {
+      "date": "2022-11-17",
+      "year": 2022,
+      "month": 11,
+      "modis_date": "A2022321",
+      "ndvi": 0.444
+    },
+    {
+      "date": "2022-12-03",
+      "year": 2022,
+      "month": 12,
+      "modis_date": "A2022337",
+      "ndvi": 0.344
+    },
+    {
+      "date": "2022-12-19",
+      "year": 2022,
+      "month": 12,
+      "modis_date": "A2022353",
+      "ndvi": 0.36
+    },
+    {
+      "date": "2023-01-01",
+      "year": 2023,
+      "month": 1,
+      "modis_date": "A2023001",
+      "ndvi": 0.334
+    },
+    {
+      "date": "2023-01-17",
+      "year": 2023,
+      "month": 1,
+      "modis_date": "A2023017",
+      "ndvi": 0.35
+    },
+    {
+      "date": "2023-02-02",
+      "year": 2023,
+      "month": 2,
+      "modis_date": "A2023033",
+      "ndvi": 0.396
+    },
+    {
+      "date": "2023-02-18",
+      "year": 2023,
+      "month": 2,
+      "modis_date": "A2023049",
+      "ndvi": 0.356
+    },
+    {
+      "date": "2023-03-06",
+      "year": 2023,
+      "month": 3,
+      "modis_date": "A2023065",
+      "ndvi": 0.312
+    },
+    {
+      "date": "2023-03-22",
+      "year": 2023,
+      "month": 3,
+      "modis_date": "A2023081",
+      "ndvi": 0.328
+    },
+    {
+      "date": "2023-04-07",
+      "year": 2023,
+      "month": 4,
+      "modis_date": "A2023097",
+      "ndvi": 0.384
+    },
+    {
+      "date": "2023-04-23",
+      "year": 2023,
+      "month": 4,
+      "modis_date": "A2023113",
+      "ndvi": 0.344
+    },
+    {
+      "date": "2023-05-09",
+      "year": 2023,
+      "month": 5,
+      "modis_date": "A2023129",
+      "ndvi": 0.48
+    },
+    {
+      "date": "2023-05-25",
+      "year": 2023,
+      "month": 5,
+      "modis_date": "A2023145",
+      "ndvi": 0.496
+    },
+    {
+      "date": "2023-06-10",
+      "year": 2023,
+      "month": 6,
+      "modis_date": "A2023161",
+      "ndvi": 0.556
+    },
+    {
+      "date": "2023-06-26",
+      "year": 2023,
+      "month": 6,
+      "modis_date": "A2023177",
+      "ndvi": 0.572
+    },
+    {
+      "date": "2023-07-12",
+      "year": 2023,
+      "month": 7,
+      "modis_date": "A2023193",
+      "ndvi": 0.688
+    },
+    {
+      "date": "2023-07-28",
+      "year": 2023,
+      "month": 7,
+      "modis_date": "A2023209",
+      "ndvi": 0.704
+    },
+    {
+      "date": "2023-08-13",
+      "year": 2023,
+      "month": 8,
+      "modis_date": "A2023225",
+      "ndvi": 0.704
+    },
+    {
+      "date": "2023-08-29",
+      "year": 2023,
+      "month": 8,
+      "modis_date": "A2023241",
+      "ndvi": 0.72
+    },
+    {
+      "date": "2023-09-14",
+      "year": 2023,
+      "month": 9,
+      "modis_date": "A2023257",
+      "ndvi": 0.706
+    },
+    {
+      "date": "2023-09-30",
+      "year": 2023,
+      "month": 9,
+      "modis_date": "A2023273",
+      "ndvi": 0.666
+    },
+    {
+      "date": "2023-10-16",
+      "year": 2023,
+      "month": 10,
+      "modis_date": "A2023289",
+      "ndvi": 0.542
+    },
+    {
+      "date": "2023-11-01",
+      "year": 2023,
+      "month": 11,
+      "modis_date": "A2023305",
+      "ndvi": 0.428
+    },
+    {
+      "date": "2023-11-17",
+      "year": 2023,
+      "month": 11,
+      "modis_date": "A2023321",
+      "ndvi": 0.444
+    },
+    {
+      "date": "2023-12-03",
+      "year": 2023,
+      "month": 12,
+      "modis_date": "A2023337",
+      "ndvi": 0.344
+    },
+    {
+      "date": "2023-12-19",
+      "year": 2023,
+      "month": 12,
+      "modis_date": "A2023353",
+      "ndvi": 0.36
+    },
+    {
+      "date": "2024-01-01",
+      "year": 2024,
+      "month": 1,
+      "modis_date": "A2024001",
+      "ndvi": 0.334
+    },
+    {
+      "date": "2024-01-17",
+      "year": 2024,
+      "month": 1,
+      "modis_date": "A2024017",
+      "ndvi": 0.35
+    },
+    {
+      "date": "2024-02-02",
+      "year": 2024,
+      "month": 2,
+      "modis_date": "A2024033",
+      "ndvi": 0.396
+    },
+    {
+      "date": "2024-02-18",
+      "year": 2024,
+      "month": 2,
+      "modis_date": "A2024049",
+      "ndvi": 0.356
+    },
+    {
+      "date": "2024-03-06",
+      "year": 2024,
+      "month": 3,
+      "modis_date": "A2024065",
+      "ndvi": 0.312
+    },
+    {
+      "date": "2024-03-22",
+      "year": 2024,
+      "month": 3,
+      "modis_date": "A2024081",
+      "ndvi": 0.328
+    },
+    {
+      "date": "2024-04-07",
+      "year": 2024,
+      "month": 4,
+      "modis_date": "A2024097",
+      "ndvi": 0.384
+    },
+    {
+      "date": "2024-04-23",
+      "year": 2024,
+      "month": 4,
+      "modis_date": "A2024113",
+      "ndvi": 0.344
+    },
+    {
+      "date": "2024-05-09",
+      "year": 2024,
+      "month": 5,
+      "modis_date": "A2024129",
+      "ndvi": 0.48
+    },
+    {
+      "date": "2024-05-25",
+      "year": 2024,
+      "month": 5,
+      "modis_date": "A2024145",
+      "ndvi": 0.496
+    },
+    {
+      "date": "2024-06-10",
+      "year": 2024,
+      "month": 6,
+      "modis_date": "A2024161",
+      "ndvi": 0.556
+    },
+    {
+      "date": "2024-06-26",
+      "year": 2024,
+      "month": 6,
+      "modis_date": "A2024177",
+      "ndvi": 0.572
+    },
+    {
+      "date": "2024-07-12",
+      "year": 2024,
+      "month": 7,
+      "modis_date": "A2024193",
+      "ndvi": 0.688
+    },
+    {
+      "date": "2024-07-28",
+      "year": 2024,
+      "month": 7,
+      "modis_date": "A2024209",
+      "ndvi": 0.704
+    },
+    {
+      "date": "2024-08-13",
+      "year": 2024,
+      "month": 8,
+      "modis_date": "A2024225",
+      "ndvi": 0.704
+    },
+    {
+      "date": "2024-08-29",
+      "year": 2024,
+      "month": 8,
+      "modis_date": "A2024241",
+      "ndvi": 0.72
+    },
+    {
+      "date": "2024-09-14",
+      "year": 2024,
+      "month": 9,
+      "modis_date": "A2024257",
+      "ndvi": 0.706
+    },
+    {
+      "date": "2024-09-30",
+      "year": 2024,
+      "month": 9,
+      "modis_date": "A2024273",
+      "ndvi": 0.666
+    },
+    {
+      "date": "2024-10-16",
+      "year": 2024,
+      "month": 10,
+      "modis_date": "A2024289",
+      "ndvi": 0.542
+    },
+    {
+      "date": "2024-11-01",
+      "year": 2024,
+      "month": 11,
+      "modis_date": "A2024305",
+      "ndvi": 0.428
+    },
+    {
+      "date": "2024-11-17",
+      "year": 2024,
+      "month": 11,
+      "modis_date": "A2024321",
+      "ndvi": 0.444
+    },
+    {
+      "date": "2024-12-03",
+      "year": 2024,
+      "month": 12,
+      "modis_date": "A2024337",
+      "ndvi": 0.344
+    },
+    {
+      "date": "2024-12-19",
+      "year": 2024,
+      "month": 12,
+      "modis_date": "A2024353",
+      "ndvi": 0.36
+    }
+  ]
+}

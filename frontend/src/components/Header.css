@@ -1,0 +1,123 @@
+.header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid var(--color-border);
+  padding: 14px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
+}
+
+.header-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+}
+
+.brand-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.brand-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.brand-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.brand-subtitle {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+/* Nav Pills with mobile scrolling */
+.nav-pills {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #EEF2EB;
+  padding: 4px;
+  border-radius: var(--radius-full);
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+}
+
+.nav-pills::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.nav-pill {
+  padding: 8px 18px;
+  min-height: 38px;
+  border-radius: var(--radius-full);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  transition: all 0.15s ease-in-out;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-pill:hover {
+  color: var(--color-primary);
+}
+
+.nav-pill.active {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(31, 92, 58, 0.25);
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 14px;
+  }
+  .brand-subtitle {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .brand {
+    justify-content: center;
+  }
+  .nav-pills {
+    justify-content: center;
+    width: 100%;
+  }
+  .nav-pill {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+}

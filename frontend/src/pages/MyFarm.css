@@ -1,0 +1,454 @@
+/* MyFarm.css - Matching Image 1 Design */
+
+.farm-page {
+  width: 100%;
+}
+
+.page-header {
+  margin-bottom: 28px;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--color-text-main);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.page-subtitle {
+  font-size: 16px;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+/* Two-column layout: Form left, Sidebar right */
+.farm-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+/* Question Cards */
+.questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.question-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  box-shadow: var(--shadow-sm);
+}
+
+.question-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.q-badge {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.q-title-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.q-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--color-text-main);
+}
+
+.q-hint {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+/* Question 1: Map & Location */
+.q1-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.map-illustration {
+  width: 240px;
+  height: 120px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+.map-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.q1-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.location-pill {
+  display: inline-block;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.btn-location {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  min-height: 48px;
+  border: 1.5px solid var(--color-primary);
+  color: var(--color-primary);
+  background-color: #FFFFFF;
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 0.15s ease;
+  width: fit-content;
+}
+
+.btn-location:hover {
+  background-color: var(--color-primary-light);
+}
+
+/* Tile Grid Layouts */
+.tile-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.tile-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tile-grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tile-grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* Common Tile Button Styles */
+.tile-btn {
+  background-color: #FFFFFF;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  text-align: left;
+  transition: all 0.15s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 64px;
+}
+
+.tile-btn:hover {
+  border-color: var(--color-border-focus);
+}
+
+.tile-btn.selected {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-light);
+}
+
+.tile-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.tile-name {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--color-text-main);
+}
+
+.tile-desc {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+/* Compact Tile Buttons (Q3, Q4) */
+.tile-btn-compact {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding: 16px 12px;
+  min-height: 76px;
+}
+
+.tile-btn-priority {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding: 16px 10px;
+  min-height: 80px;
+}
+
+.tile-btn-priority .tile-name {
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+/* Radio Indicator */
+.radio-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid #A4B3AC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+}
+
+.radio-dot.checked {
+  border-color: var(--color-primary);
+  background-color: #FFFFFF;
+}
+
+.radio-dot.checked::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary);
+}
+
+/* Checkbox Indicator */
+.checkbox-box {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 1.5px solid #A4B3AC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 900;
+  color: #FFFFFF;
+  flex-shrink: 0;
+}
+
+.checkbox-box.checked {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.check-mark {
+  color: #FFFFFF;
+  line-height: 1;
+}
+
+/* Right Column Sidebar */
+.sidebar-col {
+  position: sticky;
+  top: 90px;
+}
+
+.answers-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.answers-title {
+  font-size: 19px;
+  font-weight: 800;
+  color: var(--color-text-main);
+  margin-bottom: 16px;
+}
+
+.answers-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.answers-list li {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  position: relative;
+  padding-left: 20px;
+}
+
+.answers-list li::before {
+  content: "•";
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  left: 2px;
+  top: -2px;
+}
+
+/* Error Alert Box */
+.error-alert {
+  background-color: #FEF2F2;
+  border: 1.5px solid #F87171;
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 16px;
+  animation: fadeIn 0.2s ease-in;
+}
+
+.error-icon {
+  font-size: 18px;
+  color: #DC2626;
+  line-height: 1.2;
+}
+
+.error-text {
+  font-size: 13.5px;
+  color: #991B1B;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Big Action Button (min 56px height) */
+.btn-submit {
+  width: 100%;
+  min-height: 56px;
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  border-radius: var(--radius-md);
+  font-size: 17px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease, transform 0.05s ease;
+  box-shadow: 0 4px 12px rgba(31, 92, 58, 0.2);
+}
+
+.btn-submit:hover:not(:disabled) {
+  background-color: var(--color-primary-hover);
+}
+
+.btn-submit:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.btn-submit:disabled {
+  opacity: 0.85;
+  cursor: not-allowed;
+}
+
+.btn-loading-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+/* Spinner */
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 2.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #FFFFFF;
+  animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sidebar-footnote {
+  font-size: 12.5px;
+  color: var(--color-text-subtle);
+  text-align: center;
+  margin-top: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* Mobile & Tablet Responsiveness */
+@media (max-width: 900px) {
+  .farm-layout {
+    grid-template-columns: 1fr;
+  }
+  .sidebar-col {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-title {
+    font-size: 26px;
+  }
+  .tile-grid-3, .tile-grid-4, .tile-grid-5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .q1-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .map-illustration {
+    width: 100%;
+    height: 130px;
+  }
+}

@@ -1,0 +1,987 @@
+{
+  "metadata": {
+    "dataset": "NASA POWER (Agroclimatology)",
+    "latitude": 26.18,
+    "longitude": 91.75,
+    "start_year": 2015,
+    "end_year": 2024,
+    "total_months": 120,
+    "units": {
+      "temperature": "\u00b0C (monthly mean at 2m)",
+      "rainfall": "mm/day (monthly mean daily precipitation)",
+      "solar_radiation": "MJ/m^2/day (monthly mean daily irradiance)"
+    },
+    "source": "SAMPLE_DATA",
+    "note": "NASA POWER recorded baseline for Kamrup, Assam"
+  },
+  "summary": {
+    "mean_temperature_c": 23.23,
+    "min_monthly_temp_c": 14.49,
+    "max_monthly_temp_c": 28.83,
+    "mean_rainfall_mm_day": 5.96,
+    "est_annual_rainfall_mm": 2176.9,
+    "mean_solar_radiation_mj": 15.51
+  },
+  "monthly_records": [
+    {
+      "date": "2015-01",
+      "year": 2015,
+      "month": 1,
+      "temperature_c": 16.74,
+      "rainfall_mm_day": 0.29,
+      "solar_radiation_mj": 13.37
+    },
+    {
+      "date": "2015-02",
+      "year": 2015,
+      "month": 2,
+      "temperature_c": 18.68,
+      "rainfall_mm_day": 0.74,
+      "solar_radiation_mj": 15.29
+    },
+    {
+      "date": "2015-03",
+      "year": 2015,
+      "month": 3,
+      "temperature_c": 22.78,
+      "rainfall_mm_day": 0.89,
+      "solar_radiation_mj": 18.34
+    },
+    {
+      "date": "2015-04",
+      "year": 2015,
+      "month": 4,
+      "temperature_c": 24.98,
+      "rainfall_mm_day": 8.01,
+      "solar_radiation_mj": 16.91
+    },
+    {
+      "date": "2015-05",
+      "year": 2015,
+      "month": 5,
+      "temperature_c": 27.05,
+      "rainfall_mm_day": 10.97,
+      "solar_radiation_mj": 16.97
+    },
+    {
+      "date": "2015-06",
+      "year": 2015,
+      "month": 6,
+      "temperature_c": 28.1,
+      "rainfall_mm_day": 11.46,
+      "solar_radiation_mj": 15.33
+    },
+    {
+      "date": "2015-07",
+      "year": 2015,
+      "month": 7,
+      "temperature_c": 27.57,
+      "rainfall_mm_day": 9.49,
+      "solar_radiation_mj": 17.77
+    },
+    {
+      "date": "2015-08",
+      "year": 2015,
+      "month": 8,
+      "temperature_c": 27.56,
+      "rainfall_mm_day": 12.86,
+      "solar_radiation_mj": 14.12
+    },
+    {
+      "date": "2015-09",
+      "year": 2015,
+      "month": 9,
+      "temperature_c": 27.02,
+      "rainfall_mm_day": 9.84,
+      "solar_radiation_mj": 15.63
+    },
+    {
+      "date": "2015-10",
+      "year": 2015,
+      "month": 10,
+      "temperature_c": 24.45,
+      "rainfall_mm_day": 2.11,
+      "solar_radiation_mj": 17.34
+    },
+    {
+      "date": "2015-11",
+      "year": 2015,
+      "month": 11,
+      "temperature_c": 21.08,
+      "rainfall_mm_day": 0.25,
+      "solar_radiation_mj": 14.4
+    },
+    {
+      "date": "2015-12",
+      "year": 2015,
+      "month": 12,
+      "temperature_c": 16.49,
+      "rainfall_mm_day": 0.72,
+      "solar_radiation_mj": 12.0
+    },
+    {
+      "date": "2016-01",
+      "year": 2016,
+      "month": 1,
+      "temperature_c": 15.51,
+      "rainfall_mm_day": 0.66,
+      "solar_radiation_mj": 11.44
+    },
+    {
+      "date": "2016-02",
+      "year": 2016,
+      "month": 2,
+      "temperature_c": 19.35,
+      "rainfall_mm_day": 0.27,
+      "solar_radiation_mj": 14.17
+    },
+    {
+      "date": "2016-03",
+      "year": 2016,
+      "month": 3,
+      "temperature_c": 23.73,
+      "rainfall_mm_day": 2.28,
+      "solar_radiation_mj": 17.11
+    },
+    {
+      "date": "2016-04",
+      "year": 2016,
+      "month": 4,
+      "temperature_c": 26.57,
+      "rainfall_mm_day": 14.26,
+      "solar_radiation_mj": 17.57
+    },
+    {
+      "date": "2016-05",
+      "year": 2016,
+      "month": 5,
+      "temperature_c": 26.84,
+      "rainfall_mm_day": 11.92,
+      "solar_radiation_mj": 16.33
+    },
+    {
+      "date": "2016-06",
+      "year": 2016,
+      "month": 6,
+      "temperature_c": 28.05,
+      "rainfall_mm_day": 11.87,
+      "solar_radiation_mj": 17.82
+    },
+    {
+      "date": "2016-07",
+      "year": 2016,
+      "month": 7,
+      "temperature_c": 27.51,
+      "rainfall_mm_day": 18.56,
+      "solar_radiation_mj": 14.43
+    },
+    {
+      "date": "2016-08",
+      "year": 2016,
+      "month": 8,
+      "temperature_c": 28.15,
+      "rainfall_mm_day": 3.98,
+      "solar_radiation_mj": 18.62
+    },
+    {
+      "date": "2016-09",
+      "year": 2016,
+      "month": 9,
+      "temperature_c": 26.74,
+      "rainfall_mm_day": 5.87,
+      "solar_radiation_mj": 14.88
+    },
+    {
+      "date": "2016-10",
+      "year": 2016,
+      "month": 10,
+      "temperature_c": 25.09,
+      "rainfall_mm_day": 3.65,
+      "solar_radiation_mj": 16.74
+    },
+    {
+      "date": "2016-11",
+      "year": 2016,
+      "month": 11,
+      "temperature_c": 21.29,
+      "rainfall_mm_day": 0.28,
+      "solar_radiation_mj": 15.4
+    },
+    {
+      "date": "2016-12",
+      "year": 2016,
+      "month": 12,
+      "temperature_c": 18.39,
+      "rainfall_mm_day": 0.09,
+      "solar_radiation_mj": 13.64
+    },
+    {
+      "date": "2017-01",
+      "year": 2017,
+      "month": 1,
+      "temperature_c": 16.28,
+      "rainfall_mm_day": 0.01,
+      "solar_radiation_mj": 14.32
+    },
+    {
+      "date": "2017-02",
+      "year": 2017,
+      "month": 2,
+      "temperature_c": 18.74,
+      "rainfall_mm_day": 2.08,
+      "solar_radiation_mj": 15.43
+    },
+    {
+      "date": "2017-03",
+      "year": 2017,
+      "month": 3,
+      "temperature_c": 21.44,
+      "rainfall_mm_day": 4.54,
+      "solar_radiation_mj": 15.65
+    },
+    {
+      "date": "2017-04",
+      "year": 2017,
+      "month": 4,
+      "temperature_c": 24.95,
+      "rainfall_mm_day": 11.87,
+      "solar_radiation_mj": 16.15
+    },
+    {
+      "date": "2017-05",
+      "year": 2017,
+      "month": 5,
+      "temperature_c": 26.89,
+      "rainfall_mm_day": 7.61,
+      "solar_radiation_mj": 17.66
+    },
+    {
+      "date": "2017-06",
+      "year": 2017,
+      "month": 6,
+      "temperature_c": 27.8,
+      "rainfall_mm_day": 16.3,
+      "solar_radiation_mj": 15.79
+    },
+    {
+      "date": "2017-07",
+      "year": 2017,
+      "month": 7,
+      "temperature_c": 27.61,
+      "rainfall_mm_day": 13.98,
+      "solar_radiation_mj": 17.42
+    },
+    {
+      "date": "2017-08",
+      "year": 2017,
+      "month": 8,
+      "temperature_c": 27.63,
+      "rainfall_mm_day": 13.87,
+      "solar_radiation_mj": 15.79
+    },
+    {
+      "date": "2017-09",
+      "year": 2017,
+      "month": 9,
+      "temperature_c": 26.94,
+      "rainfall_mm_day": 9.14,
+      "solar_radiation_mj": 14.1
+    },
+    {
+      "date": "2017-10",
+      "year": 2017,
+      "month": 10,
+      "temperature_c": 24.69,
+      "rainfall_mm_day": 5.99,
+      "solar_radiation_mj": 15.11
+    },
+    {
+      "date": "2017-11",
+      "year": 2017,
+      "month": 11,
+      "temperature_c": 20.54,
+      "rainfall_mm_day": 0.31,
+      "solar_radiation_mj": 15.15
+    },
+    {
+      "date": "2017-12",
+      "year": 2017,
+      "month": 12,
+      "temperature_c": 18.19,
+      "rainfall_mm_day": 0.27,
+      "solar_radiation_mj": 13.19
+    },
+    {
+      "date": "2018-01",
+      "year": 2018,
+      "month": 1,
+      "temperature_c": 14.72,
+      "rainfall_mm_day": 0.08,
+      "solar_radiation_mj": 12.97
+    },
+    {
+      "date": "2018-02",
+      "year": 2018,
+      "month": 2,
+      "temperature_c": 18.19,
+      "rainfall_mm_day": 0.51,
+      "solar_radiation_mj": 13.79
+    },
+    {
+      "date": "2018-03",
+      "year": 2018,
+      "month": 3,
+      "temperature_c": 22.08,
+      "rainfall_mm_day": 2.04,
+      "solar_radiation_mj": 17.06
+    },
+    {
+      "date": "2018-04",
+      "year": 2018,
+      "month": 4,
+      "temperature_c": 24.59,
+      "rainfall_mm_day": 5.95,
+      "solar_radiation_mj": 17.06
+    },
+    {
+      "date": "2018-05",
+      "year": 2018,
+      "month": 5,
+      "temperature_c": 26.22,
+      "rainfall_mm_day": 9.15,
+      "solar_radiation_mj": 16.04
+    },
+    {
+      "date": "2018-06",
+      "year": 2018,
+      "month": 6,
+      "temperature_c": 27.89,
+      "rainfall_mm_day": 12.74,
+      "solar_radiation_mj": 16.64
+    },
+    {
+      "date": "2018-07",
+      "year": 2018,
+      "month": 7,
+      "temperature_c": 28.47,
+      "rainfall_mm_day": 9.99,
+      "solar_radiation_mj": 16.55
+    },
+    {
+      "date": "2018-08",
+      "year": 2018,
+      "month": 8,
+      "temperature_c": 28.05,
+      "rainfall_mm_day": 8.84,
+      "solar_radiation_mj": 17.68
+    },
+    {
+      "date": "2018-09",
+      "year": 2018,
+      "month": 9,
+      "temperature_c": 26.87,
+      "rainfall_mm_day": 8.43,
+      "solar_radiation_mj": 14.66
+    },
+    {
+      "date": "2018-10",
+      "year": 2018,
+      "month": 10,
+      "temperature_c": 23.33,
+      "rainfall_mm_day": 1.06,
+      "solar_radiation_mj": 16.55
+    },
+    {
+      "date": "2018-11",
+      "year": 2018,
+      "month": 11,
+      "temperature_c": 19.56,
+      "rainfall_mm_day": 0.38,
+      "solar_radiation_mj": 14.49
+    },
+    {
+      "date": "2018-12",
+      "year": 2018,
+      "month": 12,
+      "temperature_c": 16.29,
+      "rainfall_mm_day": 0.66,
+      "solar_radiation_mj": 12.84
+    },
+    {
+      "date": "2019-01",
+      "year": 2019,
+      "month": 1,
+      "temperature_c": 15.31,
+      "rainfall_mm_day": 0.02,
+      "solar_radiation_mj": 14.71
+    },
+    {
+      "date": "2019-02",
+      "year": 2019,
+      "month": 2,
+      "temperature_c": 17.15,
+      "rainfall_mm_day": 1.05,
+      "solar_radiation_mj": 14.05
+    },
+    {
+      "date": "2019-03",
+      "year": 2019,
+      "month": 3,
+      "temperature_c": 20.56,
+      "rainfall_mm_day": 1.49,
+      "solar_radiation_mj": 17.69
+    },
+    {
+      "date": "2019-04",
+      "year": 2019,
+      "month": 4,
+      "temperature_c": 24.75,
+      "rainfall_mm_day": 7.16,
+      "solar_radiation_mj": 16.56
+    },
+    {
+      "date": "2019-05",
+      "year": 2019,
+      "month": 5,
+      "temperature_c": 26.65,
+      "rainfall_mm_day": 13.65,
+      "solar_radiation_mj": 14.9
+    },
+    {
+      "date": "2019-06",
+      "year": 2019,
+      "month": 6,
+      "temperature_c": 28.23,
+      "rainfall_mm_day": 11.29,
+      "solar_radiation_mj": 16.55
+    },
+    {
+      "date": "2019-07",
+      "year": 2019,
+      "month": 7,
+      "temperature_c": 27.95,
+      "rainfall_mm_day": 17.8,
+      "solar_radiation_mj": 14.68
+    },
+    {
+      "date": "2019-08",
+      "year": 2019,
+      "month": 8,
+      "temperature_c": 28.58,
+      "rainfall_mm_day": 6.48,
+      "solar_radiation_mj": 19.21
+    },
+    {
+      "date": "2019-09",
+      "year": 2019,
+      "month": 9,
+      "temperature_c": 26.79,
+      "rainfall_mm_day": 11.56,
+      "solar_radiation_mj": 14.08
+    },
+    {
+      "date": "2019-10",
+      "year": 2019,
+      "month": 10,
+      "temperature_c": 23.89,
+      "rainfall_mm_day": 6.54,
+      "solar_radiation_mj": 14.54
+    },
+    {
+      "date": "2019-11",
+      "year": 2019,
+      "month": 11,
+      "temperature_c": 21.14,
+      "rainfall_mm_day": 0.44,
+      "solar_radiation_mj": 14.15
+    },
+    {
+      "date": "2019-12",
+      "year": 2019,
+      "month": 12,
+      "temperature_c": 15.75,
+      "rainfall_mm_day": 0.03,
+      "solar_radiation_mj": 12.36
+    },
+    {
+      "date": "2020-01",
+      "year": 2020,
+      "month": 1,
+      "temperature_c": 14.49,
+      "rainfall_mm_day": 0.6,
+      "solar_radiation_mj": 11.78
+    },
+    {
+      "date": "2020-02",
+      "year": 2020,
+      "month": 2,
+      "temperature_c": 16.34,
+      "rainfall_mm_day": 0.45,
+      "solar_radiation_mj": 14.03
+    },
+    {
+      "date": "2020-03",
+      "year": 2020,
+      "month": 3,
+      "temperature_c": 20.89,
+      "rainfall_mm_day": 0.6,
+      "solar_radiation_mj": 17.89
+    },
+    {
+      "date": "2020-04",
+      "year": 2020,
+      "month": 4,
+      "temperature_c": 23.96,
+      "rainfall_mm_day": 8.14,
+      "solar_radiation_mj": 18.78
+    },
+    {
+      "date": "2020-05",
+      "year": 2020,
+      "month": 5,
+      "temperature_c": 25.97,
+      "rainfall_mm_day": 17.88,
+      "solar_radiation_mj": 16.83
+    },
+    {
+      "date": "2020-06",
+      "year": 2020,
+      "month": 6,
+      "temperature_c": 27.34,
+      "rainfall_mm_day": 19.5,
+      "solar_radiation_mj": 16.05
+    },
+    {
+      "date": "2020-07",
+      "year": 2020,
+      "month": 7,
+      "temperature_c": 27.5,
+      "rainfall_mm_day": 15.66,
+      "solar_radiation_mj": 12.46
+    },
+    {
+      "date": "2020-08",
+      "year": 2020,
+      "month": 8,
+      "temperature_c": 28.08,
+      "rainfall_mm_day": 8.31,
+      "solar_radiation_mj": 17.59
+    },
+    {
+      "date": "2020-09",
+      "year": 2020,
+      "month": 9,
+      "temperature_c": 26.86,
+      "rainfall_mm_day": 14.13,
+      "solar_radiation_mj": 13.27
+    },
+    {
+      "date": "2020-10",
+      "year": 2020,
+      "month": 10,
+      "temperature_c": 25.88,
+      "rainfall_mm_day": 5.22,
+      "solar_radiation_mj": 15.81
+    },
+    {
+      "date": "2020-11",
+      "year": 2020,
+      "month": 11,
+      "temperature_c": 20.39,
+      "rainfall_mm_day": 0.09,
+      "solar_radiation_mj": 14.72
+    },
+    {
+      "date": "2020-12",
+      "year": 2020,
+      "month": 12,
+      "temperature_c": 16.32,
+      "rainfall_mm_day": 0.0,
+      "solar_radiation_mj": 12.88
+    },
+    {
+      "date": "2021-01",
+      "year": 2021,
+      "month": 1,
+      "temperature_c": 15.33,
+      "rainfall_mm_day": 0.09,
+      "solar_radiation_mj": 11.54
+    },
+    {
+      "date": "2021-02",
+      "year": 2021,
+      "month": 2,
+      "temperature_c": 16.97,
+      "rainfall_mm_day": 0.12,
+      "solar_radiation_mj": 15.44
+    },
+    {
+      "date": "2021-03",
+      "year": 2021,
+      "month": 3,
+      "temperature_c": 21.67,
+      "rainfall_mm_day": 1.69,
+      "solar_radiation_mj": 17.78
+    },
+    {
+      "date": "2021-04",
+      "year": 2021,
+      "month": 4,
+      "temperature_c": 24.83,
+      "rainfall_mm_day": 3.86,
+      "solar_radiation_mj": 21.35
+    },
+    {
+      "date": "2021-05",
+      "year": 2021,
+      "month": 5,
+      "temperature_c": 26.21,
+      "rainfall_mm_day": 8.26,
+      "solar_radiation_mj": 15.19
+    },
+    {
+      "date": "2021-06",
+      "year": 2021,
+      "month": 6,
+      "temperature_c": 27.78,
+      "rainfall_mm_day": 11.82,
+      "solar_radiation_mj": 15.47
+    },
+    {
+      "date": "2021-07",
+      "year": 2021,
+      "month": 7,
+      "temperature_c": 27.97,
+      "rainfall_mm_day": 9.85,
+      "solar_radiation_mj": 15.21
+    },
+    {
+      "date": "2021-08",
+      "year": 2021,
+      "month": 8,
+      "temperature_c": 27.35,
+      "rainfall_mm_day": 10.94,
+      "solar_radiation_mj": 15.22
+    },
+    {
+      "date": "2021-09",
+      "year": 2021,
+      "month": 9,
+      "temperature_c": 27.22,
+      "rainfall_mm_day": 4.92,
+      "solar_radiation_mj": 17.94
+    },
+    {
+      "date": "2021-10",
+      "year": 2021,
+      "month": 10,
+      "temperature_c": 24.94,
+      "rainfall_mm_day": 3.15,
+      "solar_radiation_mj": 15.6
+    },
+    {
+      "date": "2021-11",
+      "year": 2021,
+      "month": 11,
+      "temperature_c": 18.93,
+      "rainfall_mm_day": 0.0,
+      "solar_radiation_mj": 14.82
+    },
+    {
+      "date": "2021-12",
+      "year": 2021,
+      "month": 12,
+      "temperature_c": 16.63,
+      "rainfall_mm_day": 0.2,
+      "solar_radiation_mj": 13.06
+    },
+    {
+      "date": "2022-01",
+      "year": 2022,
+      "month": 1,
+      "temperature_c": 15.07,
+      "rainfall_mm_day": 0.7,
+      "solar_radiation_mj": 12.5
+    },
+    {
+      "date": "2022-02",
+      "year": 2022,
+      "month": 2,
+      "temperature_c": 15.09,
+      "rainfall_mm_day": 2.04,
+      "solar_radiation_mj": 14.03
+    },
+    {
+      "date": "2022-03",
+      "year": 2022,
+      "month": 3,
+      "temperature_c": 22.3,
+      "rainfall_mm_day": 1.71,
+      "solar_radiation_mj": 17.73
+    },
+    {
+      "date": "2022-04",
+      "year": 2022,
+      "month": 4,
+      "temperature_c": 25.14,
+      "rainfall_mm_day": 9.39,
+      "solar_radiation_mj": 14.5
+    },
+    {
+      "date": "2022-05",
+      "year": 2022,
+      "month": 5,
+      "temperature_c": 26.44,
+      "rainfall_mm_day": 14.74,
+      "solar_radiation_mj": 16.22
+    },
+    {
+      "date": "2022-06",
+      "year": 2022,
+      "month": 6,
+      "temperature_c": 26.79,
+      "rainfall_mm_day": 24.19,
+      "solar_radiation_mj": 12.35
+    },
+    {
+      "date": "2022-07",
+      "year": 2022,
+      "month": 7,
+      "temperature_c": 28.04,
+      "rainfall_mm_day": 6.76,
+      "solar_radiation_mj": 18.06
+    },
+    {
+      "date": "2022-08",
+      "year": 2022,
+      "month": 8,
+      "temperature_c": 27.99,
+      "rainfall_mm_day": 5.74,
+      "solar_radiation_mj": 17.9
+    },
+    {
+      "date": "2022-09",
+      "year": 2022,
+      "month": 9,
+      "temperature_c": 26.76,
+      "rainfall_mm_day": 5.11,
+      "solar_radiation_mj": 15.78
+    },
+    {
+      "date": "2022-10",
+      "year": 2022,
+      "month": 10,
+      "temperature_c": 23.84,
+      "rainfall_mm_day": 6.78,
+      "solar_radiation_mj": 14.61
+    },
+    {
+      "date": "2022-11",
+      "year": 2022,
+      "month": 11,
+      "temperature_c": 19.89,
+      "rainfall_mm_day": 0.01,
+      "solar_radiation_mj": 16.21
+    },
+    {
+      "date": "2022-12",
+      "year": 2022,
+      "month": 12,
+      "temperature_c": 16.95,
+      "rainfall_mm_day": 0.08,
+      "solar_radiation_mj": 12.54
+    },
+    {
+      "date": "2023-01",
+      "year": 2023,
+      "month": 1,
+      "temperature_c": 15.18,
+      "rainfall_mm_day": 0.0,
+      "solar_radiation_mj": 13.53
+    },
+    {
+      "date": "2023-02",
+      "year": 2023,
+      "month": 2,
+      "temperature_c": 17.99,
+      "rainfall_mm_day": 0.14,
+      "solar_radiation_mj": 14.05
+    },
+    {
+      "date": "2023-03",
+      "year": 2023,
+      "month": 3,
+      "temperature_c": 21.38,
+      "rainfall_mm_day": 3.5,
+      "solar_radiation_mj": 16.62
+    },
+    {
+      "date": "2023-04",
+      "year": 2023,
+      "month": 4,
+      "temperature_c": 24.99,
+      "rainfall_mm_day": 3.08,
+      "solar_radiation_mj": 20.48
+    },
+    {
+      "date": "2023-05",
+      "year": 2023,
+      "month": 5,
+      "temperature_c": 26.68,
+      "rainfall_mm_day": 4.75,
+      "solar_radiation_mj": 20.12
+    },
+    {
+      "date": "2023-06",
+      "year": 2023,
+      "month": 6,
+      "temperature_c": 28.51,
+      "rainfall_mm_day": 16.53,
+      "solar_radiation_mj": 15.56
+    },
+    {
+      "date": "2023-07",
+      "year": 2023,
+      "month": 7,
+      "temperature_c": 28.52,
+      "rainfall_mm_day": 8.72,
+      "solar_radiation_mj": 17.26
+    },
+    {
+      "date": "2023-08",
+      "year": 2023,
+      "month": 8,
+      "temperature_c": 28.06,
+      "rainfall_mm_day": 9.34,
+      "solar_radiation_mj": 15.07
+    },
+    {
+      "date": "2023-09",
+      "year": 2023,
+      "month": 9,
+      "temperature_c": 27.69,
+      "rainfall_mm_day": 4.77,
+      "solar_radiation_mj": 17.57
+    },
+    {
+      "date": "2023-10",
+      "year": 2023,
+      "month": 10,
+      "temperature_c": 24.08,
+      "rainfall_mm_day": 4.42,
+      "solar_radiation_mj": 15.58
+    },
+    {
+      "date": "2023-11",
+      "year": 2023,
+      "month": 11,
+      "temperature_c": 20.23,
+      "rainfall_mm_day": 0.3,
+      "solar_radiation_mj": 15.46
+    },
+    {
+      "date": "2023-12",
+      "year": 2023,
+      "month": 12,
+      "temperature_c": 17.43,
+      "rainfall_mm_day": 0.38,
+      "solar_radiation_mj": 12.64
+    },
+    {
+      "date": "2024-01",
+      "year": 2024,
+      "month": 1,
+      "temperature_c": 14.78,
+      "rainfall_mm_day": 0.09,
+      "solar_radiation_mj": 12.71
+    },
+    {
+      "date": "2024-02",
+      "year": 2024,
+      "month": 2,
+      "temperature_c": 16.47,
+      "rainfall_mm_day": 0.47,
+      "solar_radiation_mj": 13.83
+    },
+    {
+      "date": "2024-03",
+      "year": 2024,
+      "month": 3,
+      "temperature_c": 21.12,
+      "rainfall_mm_day": 3.5,
+      "solar_radiation_mj": 16.05
+    },
+    {
+      "date": "2024-04",
+      "year": 2024,
+      "month": 4,
+      "temperature_c": 26.04,
+      "rainfall_mm_day": 2.11,
+      "solar_radiation_mj": 19.85
+    },
+    {
+      "date": "2024-05",
+      "year": 2024,
+      "month": 5,
+      "temperature_c": 27.41,
+      "rainfall_mm_day": 12.56,
+      "solar_radiation_mj": 18.12
+    },
+    {
+      "date": "2024-06",
+      "year": 2024,
+      "month": 6,
+      "temperature_c": 28.36,
+      "rainfall_mm_day": 20.23,
+      "solar_radiation_mj": 13.49
+    },
+    {
+      "date": "2024-07",
+      "year": 2024,
+      "month": 7,
+      "temperature_c": 28.83,
+      "rainfall_mm_day": 11.29,
+      "solar_radiation_mj": 16.72
+    },
+    {
+      "date": "2024-08",
+      "year": 2024,
+      "month": 8,
+      "temperature_c": 27.68,
+      "rainfall_mm_day": 10.91,
+      "solar_radiation_mj": 16.0
+    },
+    {
+      "date": "2024-09",
+      "year": 2024,
+      "month": 9,
+      "temperature_c": 27.9,
+      "rainfall_mm_day": 4.67,
+      "solar_radiation_mj": 16.66
+    },
+    {
+      "date": "2024-10",
+      "year": 2024,
+      "month": 10,
+      "temperature_c": 24.3,
+      "rainfall_mm_day": 5.47,
+      "solar_radiation_mj": 11.74
+    },
+    {
+      "date": "2024-11",
+      "year": 2024,
+      "month": 11,
+      "temperature_c": 20.06,
+      "rainfall_mm_day": 0.05,
+      "solar_radiation_mj": 14.83
+    },
+    {
+      "date": "2024-12",
+      "year": 2024,
+      "month": 12,
+      "temperature_c": 15.34,
+      "rainfall_mm_day": 0.0,
+      "solar_radiation_mj": 13.15
+    }
+  ]
+}

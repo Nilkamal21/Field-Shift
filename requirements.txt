@@ -1,0 +1,8 @@
+# Dependencies for Field Shift Backend
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+httpx>=0.28.0

@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "dataset": "NASA SMAP (SPL4SMGP.008)",
+    "product": "SMAP L4 Global 3-hourly 9 km Surface and Root Zone Soil Moisture",
+    "latitude": 26.18,
+    "longitude": 91.75,
+    "location_name": "Kamrup, Assam, India",
+    "start_year": 2021,
+    "end_year": 2024,
+    "total_months": 48,
+    "is_sample_data": true,
+    "source": "SAMPLE_DATA",
+    "sample_label": "SAMPLE DATA (NASA SMAP Baseline for Kamrup, Assam)",
+    "units": {
+      "sm_surface_m3m3": "m^3/m^3 (volumetric water content in top 0-5 cm)",
+      "sm_rootzone_m3m3": "m^3/m^3 (volumetric water content in root zone 0-100 cm)",
+      "wetness": "0 to 1 (relative saturation)"
+    }
+  },
+  "summary": {
+    "mean_rootzone_moisture_m3m3": 0.271,
+    "mean_surface_moisture_m3m3": 0.252,
+    "min_rootzone_moisture_m3m3": 0.172,
+    "max_rootzone_moisture_m3m3": 0.382,
+    "dry_season_avg_m3m3": 0.199,
+    "monsoon_season_avg_m3m3": 0.351
+  },
+  "monthly_records": [
+    {
+      "date": "2021-01",
+      "year": 2021,
+      "month": 1,
+      "sm_surface_m3m3": 0.174,
+      "sm_rootzone_m3m3": 0.222,
+      "sm_surface_wetness": 0.387,
+      "sm_rootzone_wetness": 0.493
+    },
+    {
+      "date": "2021-02",
+      "year": 2021,
+      "month": 2,
+      "sm_surface_m3m3": 0.146,
+      "sm_rootzone_m3m3": 0.196,
+      "sm_surface_wetness": 0.324,
+      "sm_rootzone_wetness": 0.436
+    },
+    {
+      "date": "2021-03",
+      "year": 2021,
+      "month": 3,
+      "sm_surface_m3m3": 0.168,
+      "sm_rootzone_m3m3": 0.192,
+      "sm_surface_wetness": 0.373,
+      "sm_rootzone_wetness": 0.427
+    },
+    {
+      "date": "2021-04",
+      "year": 2021,
+      "month": 4,
+      "sm_surface_m3m3": 0.22,
+      "sm_rootzone_m3m3": 0.226,
+      "sm_surface_wetness": 0.489,
+      "sm_rootzone_wetness": 0.502
+    },
+    {
+      "date": "2021-05",
+      "year": 2021,
+      "month": 5,
+      "sm_surface_m3m3": 0.302,
+      "sm_rootzone_m3m3": 0.301,
+      "sm_surface_wetness": 0.671,
+      "sm_rootzone_wetness": 0.669
+    },
+    {
+      "date": "2021-06",
+      "year": 2021,
+      "month": 6,
+      "sm_surface_m3m3": 0.374,
+      "sm_rootzone_m3m3": 0.345,
+      "sm_surface_wetness": 0.831,
+      "sm_rootzone_wetness": 0.767
+    },
+    {
+      "date": "2021-07",
+      "year": 2021,
+      "month": 7,
+      "sm_surface_m3m3": 0.386,
+      "sm_rootzone_m3m3": 0.382,
+      "sm_surface_wetness": 0.858,
+      "sm_rootzone_wetness": 0.849
+    },
+    {
+      "date": "2021-08",
+      "year": 2021,
+      "month": 8,
+      "sm_surface_m3m3": 0.388,
+      "sm_rootzone_m3m3": 0.365,
+      "sm_surface_wetness": 0.862,
+      "sm_rootzone_wetness": 0.811
+    },
+    {
+      "date": "2021-09",
+      "year": 2021,
+      "month": 9,
+      "sm_surface_m3m3": 0.35,
+      "sm_rootzone_m3m3": 0.351,
+      "sm_surface_wetness": 0.778,
+      "sm_rootzone_wetness": 0.78
+    },
+    {
+      "date": "2021-10",
+      "year": 2021,
+      "month": 10,
+      "sm_surface_m3m3": 0.272,
+      "sm_rootzone_m3m3": 0.305,
+      "sm_surface_wetness": 0.604,
+      "sm_rootzone_wetness": 0.678
+    },
+    {
+      "date": "2021-11",
+      "year": 2021,
+      "month": 11,
+      "sm_surface_m3m3": 0.214,
+      "sm_rootzone_m3m3": 0.262,
+      "sm_surface_wetness": 0.476,
+      "sm_rootzone_wetness": 0.582
+    },
+    {
+      "date": "2021-12",
+      "year": 2021,
+      "month": 12,
+      "sm_surface_m3m3": 0.176,
+      "sm_rootzone_m3m3": 0.226,
+      "sm_surface_wetness": 0.391,
+      "sm_rootzone_wetness": 0.502
+    },
+    {
+      "date": "2022-01",
+      "year": 2022,
+      "month": 1,
+      "sm_surface_m3m3": 0.166,
+      "sm_rootzone_m3m3": 0.215,
+      "sm_surface_wetness": 0.369,
+      "sm_rootzone_wetness": 0.478
+    },
+    {
+      "date": "2022-02",
+      "year": 2022,
+      "month": 2,
+      "sm_surface_m3m3": 0.138,
+      "sm_rootzone_m3m3": 0.189,
+      "sm_surface_wetness": 0.307,
+      "sm_rootzone_wetness": 0.42
+    },
+    {
+      "date": "2022-03",
+      "year": 2022,
+      "month": 3,
+      "sm_surface_m3m3": 0.16,
+      "sm_rootzone_m3m3": 0.185,
+      "sm_surface_wetness": 0.356,
+      "sm_rootzone_wetness": 0.411
+    },
+    {
+      "date": "2022-04",
+      "year": 2022,
+      "month": 4,
+      "sm_surface_m3m3": 0.212,
+      "sm_rootzone_m3m3": 0.219,
+      "sm_surface_wetness": 0.471,
+      "sm_rootzone_wetness": 0.487
+    },
+    {
+      "date": "2022-05",
+      "year": 2022,
+      "month": 5,
+      "sm_surface_m3m3": 0.294,
+      "sm_rootzone_m3m3": 0.295,
+      "sm_surface_wetness": 0.653,
+      "sm_rootzone_wetness": 0.656
+    },
+    {
+      "date": "2022-06",
+      "year": 2022,
+      "month": 6,
+      "sm_surface_m3m3": 0.366,
+      "sm_rootzone_m3m3": 0.339,
+      "sm_surface_wetness": 0.813,
+      "sm_rootzone_wetness": 0.753
+    },
+    {
+      "date": "2022-07",
+      "year": 2022,
+      "month": 7,
+      "sm_surface_m3m3": 0.378,
+      "sm_rootzone_m3m3": 0.375,
+      "sm_surface_wetness": 0.84,
+      "sm_rootzone_wetness": 0.833
+    },
+    {
+      "date": "2022-08",
+      "year": 2022,
+      "month": 8,
+      "sm_surface_m3m3": 0.38,
+      "sm_rootzone_m3m3": 0.359,
+      "sm_surface_wetness": 0.844,
+      "sm_rootzone_wetness": 0.798
+    },
+    {
+      "date": "2022-09",
+      "year": 2022,
+      "month": 9,
+      "sm_surface_m3m3": 0.342,
+      "sm_rootzone_m3m3": 0.345,
+      "sm_surface_wetness": 0.76,
+      "sm_rootzone_wetness": 0.767
+    },
+    {
+      "date": "2022-10",
+      "year": 2022,
+      "month": 10,
+      "sm_surface_m3m3": 0.264,
+      "sm_rootzone_m3m3": 0.299,
+      "sm_surface_wetness": 0.587,
+      "sm_rootzone_wetness": 0.664
+    },
+    {
+      "date": "2022-11",
+      "year": 2022,
+      "month": 11,
+      "sm_surface_m3m3": 0.206,
+      "sm_rootzone_m3m3": 0.255,
+      "sm_surface_wetness": 0.458,
+      "sm_rootzone_wetness": 0.567
+    },
+    {
+      "date": "2022-12",
+      "year": 2022,
+      "month": 12,
+      "sm_surface_m3m3": 0.168,
+      "sm_rootzone_m3m3": 0.219,
+      "sm_surface_wetness": 0.373,
+      "sm_rootzone_wetness": 0.487
+    },
+    {
+      "date": "2023-01",
+      "year": 2023,
+      "month": 1,
+      "sm_surface_m3m3": 0.158,
+      "sm_rootzone_m3m3": 0.209,
+      "sm_surface_wetness": 0.351,
+      "sm_rootzone_wetness": 0.464
+    },
+    {
+      "date": "2023-02",
+      "year": 2023,
+      "month": 2,
+      "sm_surface_m3m3": 0.13,
+      "sm_rootzone_m3m3": 0.183,
+      "sm_surface_wetness": 0.289,
+      "sm_rootzone_wetness": 0.407
+    },
+    {
+      "date": "2023-03",
+      "year": 2023,
+      "month": 3,
+      "sm_surface_m3m3": 0.152,
+      "sm_rootzone_m3m3": 0.179,
+      "sm_surface_wetness": 0.338,
+      "sm_rootzone_wetness": 0.398
+    },
+    {
+      "date": "2023-04",
+      "year": 2023,
+      "month": 4,
+      "sm_surface_m3m3": 0.204,
+      "sm_rootzone_m3m3": 0.213,
+      "sm_surface_wetness": 0.453,
+      "sm_rootzone_wetness": 0.473
+    },
+    {
+      "date": "2023-05",
+      "year": 2023,
+      "month": 5,
+      "sm_surface_m3m3": 0.286,
+      "sm_rootzone_m3m3": 0.289,
+      "sm_surface_wetness": 0.636,
+      "sm_rootzone_wetness": 0.642
+    },
+    {
+      "date": "2023-06",
+      "year": 2023,
+      "month": 6,
+      "sm_surface_m3m3": 0.358,
+      "sm_rootzone_m3m3": 0.333,
+      "sm_surface_wetness": 0.796,
+      "sm_rootzone_wetness": 0.74
+    },
+    {
+      "date": "2023-07",
+      "year": 2023,
+      "month": 7,
+      "sm_surface_m3m3": 0.37,
+      "sm_rootzone_m3m3": 0.369,
+      "sm_surface_wetness": 0.822,
+      "sm_rootzone_wetness": 0.82
+    },
+    {
+      "date": "2023-08",
+      "year": 2023,
+      "month": 8,
+      "sm_surface_m3m3": 0.372,
+      "sm_rootzone_m3m3": 0.353,
+      "sm_surface_wetness": 0.827,
+      "sm_rootzone_wetness": 0.784
+    },
+    {
+      "date": "2023-09",
+      "year": 2023,
+      "month": 9,
+      "sm_surface_m3m3": 0.334,
+      "sm_rootzone_m3m3": 0.339,
+      "sm_surface_wetness": 0.742,
+      "sm_rootzone_wetness": 0.753
+    },
+    {
+      "date": "2023-10",
+      "year": 2023,
+      "month": 10,
+      "sm_surface_m3m3": 0.256,
+      "sm_rootzone_m3m3": 0.293,
+      "sm_surface_wetness": 0.569,
+      "sm_rootzone_wetness": 0.651
+    },
+    {
+      "date": "2023-11",
+      "year": 2023,
+      "month": 11,
+      "sm_surface_m3m3": 0.198,
+      "sm_rootzone_m3m3": 0.249,
+      "sm_surface_wetness": 0.44,
+      "sm_rootzone_wetness": 0.553
+    },
+    {
+      "date": "2023-12",
+      "year": 2023,
+      "month": 12,
+      "sm_surface_m3m3": 0.16,
+      "sm_rootzone_m3m3": 0.213,
+      "sm_surface_wetness": 0.356,
+      "sm_rootzone_wetness": 0.473
+    },
+    {
+      "date": "2024-01",
+      "year": 2024,
+      "month": 1,
+      "sm_surface_m3m3": 0.15,
+      "sm_rootzone_m3m3": 0.202,
+      "sm_surface_wetness": 0.333,
+      "sm_rootzone_wetness": 0.449
+    },
+    {
+      "date": "2024-02",
+      "year": 2024,
+      "month": 2,
+      "sm_surface_m3m3": 0.122,
+      "sm_rootzone_m3m3": 0.176,
+      "sm_surface_wetness": 0.271,
+      "sm_rootzone_wetness": 0.391
+    },
+    {
+      "date": "2024-03",
+      "year": 2024,
+      "month": 3,
+      "sm_surface_m3m3": 0.144,
+      "sm_rootzone_m3m3": 0.172,
+      "sm_surface_wetness": 0.32,
+      "sm_rootzone_wetness": 0.382
+    },
+    {
+      "date": "2024-04",
+      "year": 2024,
+      "month": 4,
+      "sm_surface_m3m3": 0.196,
+      "sm_rootzone_m3m3": 0.206,
+      "sm_surface_wetness": 0.436,
+      "sm_rootzone_wetness": 0.458
+    },
+    {
+      "date": "2024-05",
+      "year": 2024,
+      "month": 5,
+      "sm_surface_m3m3": 0.278,
+      "sm_rootzone_m3m3": 0.282,
+      "sm_surface_wetness": 0.618,
+      "sm_rootzone_wetness": 0.627
+    },
+    {
+      "date": "2024-06",
+      "year": 2024,
+      "month": 6,
+      "sm_surface_m3m3": 0.35,
+      "sm_rootzone_m3m3": 0.326,
+      "sm_surface_wetness": 0.778,
+      "sm_rootzone_wetness": 0.724
+    },
+    {
+      "date": "2024-07",
+      "year": 2024,
+      "month": 7,
+      "sm_surface_m3m3": 0.362,
+      "sm_rootzone_m3m3": 0.362,
+      "sm_surface_wetness": 0.804,
+      "sm_rootzone_wetness": 0.804
+    },
+    {
+      "date": "2024-08",
+      "year": 2024,
+      "month": 8,
+      "sm_surface_m3m3": 0.364,
+      "sm_rootzone_m3m3": 0.346,
+      "sm_surface_wetness": 0.809,
+      "sm_rootzone_wetness": 0.769
+    },
+    {
+      "date": "2024-09",
+      "year": 2024,
+      "month": 9,
+      "sm_surface_m3m3": 0.326,
+      "sm_rootzone_m3m3": 0.332,
+      "sm_surface_wetness": 0.724,
+      "sm_rootzone_wetness": 0.738
+    },
+    {
+      "date": "2024-10",
+      "year": 2024,
+      "month": 10,
+      "sm_surface_m3m3": 0.248,
+      "sm_rootzone_m3m3": 0.286,
+      "sm_surface_wetness": 0.551,
+      "sm_rootzone_wetness": 0.636
+    },
+    {
+      "date": "2024-11",
+      "year": 2024,
+      "month": 11,
+      "sm_surface_m3m3": 0.19,
+      "sm_rootzone_m3m3": 0.242,
+      "sm_surface_wetness": 0.422,
+      "sm_rootzone_wetness": 0.538
+    },
+    {
+      "date": "2024-12",
+      "year": 2024,
+      "month": 12,
+      "sm_surface_m3m3": 0.152,
+      "sm_rootzone_m3m3": 0.206,
+      "sm_surface_wetness": 0.338,
+      "sm_rootzone_wetness": 0.458
+    }
+  ]
+}
